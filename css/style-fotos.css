@@ -23,7 +23,7 @@
 /*estilos da barra de navegação*/
 nav {
     display: flex;
-    justify-content: space-between; /* Espaça os itens da navbar */
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     position: fixed;
@@ -71,9 +71,9 @@ h3{
 
 
 .botao-inscrever {
-    background-color: #000000; /* Cor do fundo do botão */
-    color: white; /* Cor do texto do botão */
-    border: none; /* Remove a borda */
+    background-color: #000000; 
+    color: white; 
+    border: none; 
     cursor: pointer;
     font-size: 12px;
     padding: 10px 20px;

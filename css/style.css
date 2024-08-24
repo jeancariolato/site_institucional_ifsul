@@ -23,7 +23,7 @@
 /*estilos da barra de navegação*/
 nav {
     display: flex;
-    justify-content: space-between; /* Espaça os itens da navbar */
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     position: fixed;
@@ -63,9 +63,9 @@ nav ul li a:hover {
 
 
 .botao-inscrever {
-    background-color: #000000; /* Cor do fundo do botão */
-    color: white; /* Cor do texto do botão */
-    border: none; /* Remove a borda */
+    background-color: #000000;
+    color: white; 
+    border: none;
     cursor: pointer;
     font-size: 12px;
     padding: 10px 20px;
@@ -111,10 +111,10 @@ h3{
 /*LINHA DIVISÓRIA*/
 
 .linha-fina {
-    border: none; /* Remove bordas padrão */
-    border-top: 1px solid #cacaca; /* Linha fina cinza claro */
-    margin: 20px auto; /* Espaço acima e abaixo da linha */
-    width: 40%; /* Largura da linha */
+    border: none; 
+    border-top: 1px solid #cacaca;
+    margin: 20px auto; 
+    width: 40%; 
 }
 
 /*IMAGENS DAS INSTITUIÇÕES*/
@@ -129,8 +129,8 @@ h3{
 }
 
 .imagem-linha:hover {
-    transform: scale(1.1); /* Aumenta a escala da imagem ao passar o mouse */
-    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transform: scale(1.1); 
+    cursor: pointer; 
 }
 
 img {
