@@ -1,0 +1,141 @@
+
+/*CARREGANDO FONTES DE TEXTO LOCAIS*/
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-Black.ttf) format('truetype');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-Light.ttf) format('truetype');
+    font-weight: 300;
+
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-Regular.ttf) format('truetype');
+    font-weight: 500;
+
+}
+
+/*estilos da barra de navegação*/
+nav {
+    display: flex;
+    justify-content: space-between; /* Espaça os itens da navbar */
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: 5%;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+
+nav ul li {
+    margin: 15px;
+    
+}
+
+nav ul li a {
+    color: rgb(173, 173, 173);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 15px 10px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    
+}
+
+nav ul li a:hover {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+
+.botao-inscrever {
+    background-color: #000000; /* Cor do fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda */
+    cursor: pointer;
+    font-size: 12px;
+    padding: 10px 20px;
+    margin-right: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.botao-inscrever:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #000000;
+}
+
+
+
+/*ESTILOS DO BODY*/
+body{
+    margin-top: 10%;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 65px;
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 900;
+
+}
+
+h3{
+    color: rgb(167, 167, 167);
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    padding-left: 25%;
+    padding-right: 25%;
+} 
+
+
+/*LINHA DIVISÓRIA*/
+
+.linha-fina {
+    border: none; /* Remove bordas padrão */
+    border-top: 1px solid #cacaca; /* Linha fina cinza claro */
+    margin: 20px auto; /* Espaço acima e abaixo da linha */
+    width: 40%; /* Largura da linha */
+}
+
+/*IMAGENS DAS INSTITUIÇÕES*/
+
+.imagem-linha {
+    width: 12%;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 15%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.imagem-linha:hover {
+    transform: scale(1.1); /* Aumenta a escala da imagem ao passar o mouse */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+

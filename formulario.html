@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style-formulario.css" />
+    <title>Inscreva-se</title>
+</head>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="disciplinas.html">Disciplinas</a></li>
+        <li><a href="fotos.html">Fotos</a></li>
+        <li><a href="videos.html">Videos</a></li>
+    </ul>
+    <button class="botao-inscrever" onclick="window.location.href='formulario.html'">Inscreva-se</button>
+</nav>
+
+<body>
+   
+    <form method="post" action="">
+        <!--CAMPO 1-->
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome">
+            <br />
+            <label for="endereco">Endereço: </label>
+            <input type="text" name="endereco" id="endereco">
+            <br />
+            <label for="cidade">Cidade: </label>
+            <input type="text" name="cidade" id="cidade">
+            <br />
+            <label for="estado"> Estado:</label>
+            <select name="estado" id="estado">
+                <option value="">---Selecione---</option>
+                <option value="">São Paulo</option>
+                <option value="">Rio Grande do Sul</option>
+                <option value="">Minas Gerais</option>
+                <option value="">Santa Catarina</option>
+            </select>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email">
+        </fieldset>
+
+        <!--CAMPO 2-->
+        <br>
+        <fieldset>
+            <legend>Dados extras</legend>
+            <label for="ntz-cargo">Qual universidade deseja cursar: </label>
+            <br>
+            <input type="radio" name="ntz" value="if"> IFSUL (Brasil)
+            <input type="radio" name="ntz" value="utec"> UTEC (Uruguay)
+            <input type="radio" name="ntz" value="utu"> UTU (Uruguay)
+            <br>
+            <br>
+            <label for="pq">Porque deseja cursar ADS?</label>
+            <br>
+            <textarea name="pqads" rows="6" cols="40"></textarea>
+        </fieldset>
+
+        <br>
+        <button type="submit"> Enviar</button>
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+
+</html>

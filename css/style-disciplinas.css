@@ -1,0 +1,146 @@
+
+/*CARREGANDO FONTES DE TEXTO LOCAIS*/
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-Black.ttf) format('truetype');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-Light.ttf) format('truetype');
+    font-weight: 300;
+
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-Regular.ttf) format('truetype');
+    font-weight: 500;
+
+}
+
+
+/*estilos da barra de navegação*/
+nav {
+    display: flex;
+    justify-content: space-between; /* Espaça os itens da navbar */
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: 5%;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+
+nav ul li {
+    margin: 15px;
+    
+}
+
+nav ul li a {
+    color: rgb(173, 173, 173);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 15px 10px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    
+}
+
+nav ul li a:hover {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+
+
+.botao-inscrever {
+    background-color: #000000; /* Cor do fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda */
+    cursor: pointer;
+    font-size: 12px;
+    padding: 10px 20px;
+    margin-right: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.botao-inscrever:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #000000;
+}
+
+
+
+/*TÍTULO TABELA*/
+.titulo-tabela {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 8%;
+    margin-bottom: 1%;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.titulo-tabela2 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.titulo-tabela3 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%;
+    margin-top: 3%;
+    border-collapse: collapse;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+table, th, td {
+    border: 1px solid #d8d8d8;
+    font-size: 10px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #e2e2e2;
+    color: rgb(122, 122, 122);
+}
+
+td {
+    background-color: #f9f9f9;
+}
